@@ -2,7 +2,7 @@ from typing import Any, Dict, List, Tuple
 
 from torch import Tensor
 
-from custom_nodes.Comfy_KepListStuff.utils import AnyType
+from ..utils import AnyType
 
 any_type = AnyType("*")
 

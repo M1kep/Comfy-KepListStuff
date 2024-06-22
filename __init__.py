@@ -1,12 +1,12 @@
-from custom_nodes.Comfy_KepListStuff.nodes.deprecated import StackImages
-from custom_nodes.Comfy_KepListStuff.nodes.images import (
+from .nodes.deprecated import StackImages
+from .nodes.images import (
     ImageLabelOverlay,
     EmptyImages,
     XYImage,
     ImageListLoader,
     VariableImageBuilder,
 )
-from custom_nodes.Comfy_KepListStuff.nodes.list_utils import (
+from .nodes.list_utils import (
     ListLengthNode,
     JoinFloatLists,
     JoinImageLists,
@@ -16,13 +16,13 @@ from custom_nodes.Comfy_KepListStuff.nodes.list_utils import (
     JoinListAny,
     StringListFromNewline,
 )
-from custom_nodes.Comfy_KepListStuff.nodes.range_nodes import (
+from .nodes.range_nodes import (
     IntRangeNode,
     FloatRangeNode,
     IntNumStepsRangeNode,
     FloatNumStepsRangeNode,
 )
-from custom_nodes.Comfy_KepListStuff.nodes.xy import UnzippedProductAny
+from .nodes.xy import UnzippedProductAny
 
 NODE_CLASS_MAPPINGS = {
     "Range(Step) - Int": IntRangeNode,
