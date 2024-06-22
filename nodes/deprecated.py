@@ -4,7 +4,7 @@ from PIL import ImageFont, Image, ImageDraw
 from torch import Tensor
 import matplotlib.font_manager as fm
 
-from custom_nodes.Comfy_KepListStuff.utils import tensor2pil, pil2tensor
+from ..utils import tensor2pil, pil2tensor
 
 # Hack: string type that is always equal in not equal comparisons
 class AnyType(str):
