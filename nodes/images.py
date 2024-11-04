@@ -29,7 +29,7 @@ class ImageLabelOverlay:
             "optional": {
                 "float_labels": ("FLOAT", {"forceInput": True}),
                 "int_labels": ("INT", {"forceInput": True}),
-                "str_labels": ("STR", {"forceInput": True}),
+                "str_labels": ("STRING", {"forceInput": True}),
             },
         }
 
