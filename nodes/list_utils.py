@@ -72,10 +72,10 @@ class JoinListAny:
             },
         }
 
-    RETURN_TYPES = (any_type,)
+    RETURN_TYPES = (any_type, "INT")
     RETURN_NAMES = ("Joined", "Sizes")
     INPUT_IS_LIST = True
-    OUTPUT_IS_LIST = (True,)
+    OUTPUT_IS_LIST = (True, True)
     FUNCTION = "join_lists"
 
     CATEGORY = "List Stuff"
